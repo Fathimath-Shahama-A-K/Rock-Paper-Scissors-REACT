@@ -1,0 +1,64 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #222;
+    color:white;
+    text-align: center;
+}
+
+#center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+.choiceBtn{
+    font-size: 90px;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 2px solid white;
+    background-color: #fffcfc;
+    cursor: pointer;
+    
+}
+.choices{
+    display: flex;
+    gap: 80px;
+}
+.score,.result{
+    font-size: 28px;
+    font-weight: bold;
+}
+.you,.computer{
+    font-size: 20px;
+}
+.choiceBtn:hover{
+    background-color: #555;
+    transition: scale(1.05);
+}
+.choiceBtn:active{
+    transition: scale(0.95);
+}
+h1{
+    font-size: 100px;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    background: linear-gradient(90deg,rgb(247, 250, 167),rgb(237, 237, 94),rgb(230, 230, 184)
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.result{
+    font-size:32px;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.resetBtn{
+    padding: 12px 25px;
+    margin-top: 25px;
+    font-size: 18px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+}
